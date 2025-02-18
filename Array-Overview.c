@@ -18,7 +18,7 @@ int main(){
         if (c >= '0' && c <= '9')
             ++ndigits[c-'0'];
         /* 
-        c - '0' because the in computer the characters are represented in ASCII, but coverted to int cuz we declared c to int
+        c - '0' because in computer, the characters are represented in ASCII, but coverted to int cuz we declared c to int
         example if c = 2, the corresponding ascii value is 50. if i was to integrate that directly into the array like ndigits[c], it might have caused
         a segamentation fault
 
