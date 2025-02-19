@@ -1,9 +1,9 @@
-// A program to get the lines and print the longest line
+// A program to get the lines, save and print the longest line
 
 #include <stdio.h>
 #define MAX 1000 // maximum chars per line
 
-int get_line(char [], int);
+int get_line(char [], int); // Prototype
 void copy (char [], char[]);
 
 int main()
@@ -24,9 +24,11 @@ int main()
     }
   }
 
-  if (max > 0) // To verify whether the last input is a line
+  if (max > 0) // To verify whether the last input is a line (useful when teh program terminated at teh beginning)
   {
+    printf("---- The logest line ----\n");
     printf("%s", save);
+    printf("---- End ----\n");
   }
 }
 
@@ -37,7 +39,7 @@ int get_line (char charac[] ,int lim)
   for(counter = 0; counter < lim-1 && ( (getcha = getchar()) != EOF &&  getcha != '\n' ); ++counter) // Runs on three conditions
     charac[counter] = getcha; // Append the character
   
-  if( getcha == '\n')
+  if( getcha == '\n') // Append thhe \n which is not added due loop termination
   {
     charac[counter] = getcha;
     ++counter;

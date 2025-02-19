@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-main(){
+int main()
+{
  
+    int getcha = getchar();
+    putchar(getcha);
 
 }
