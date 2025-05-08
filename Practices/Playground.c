@@ -1,9 +1,14 @@
 #include <stdio.h>
 
+
 int main()
 {
- 
-    int getcha = getchar();
-    putchar(getcha);
+    int hex;
+
+ scanf("%x",&hex);
+
+ printf("%d", hex);
+
+ return 0;
 
 }

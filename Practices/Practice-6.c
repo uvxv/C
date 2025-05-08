@@ -24,7 +24,7 @@ int main()
     }
   }
 
-  if (max > 0) // To verify whether the last input is a line (useful when teh program terminated at teh beginning)
+  if (max > 0) // To verify whether the last input is a line (useful when the program terminated at the beginning)
   {
     printf("---- The logest line ----\n");
     printf("%s", save);

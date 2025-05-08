@@ -11,7 +11,7 @@ return_type func name( paras types and names,......)
 
 #include <stdio.h>
 
-int power (int,int); // Function prototype
+ // Function prototype
 /*
 in above the function prototype is created cuz the function is created after the main() program,
 this tells the compiler a function named 'power' exists which takes two integer paras and returns an integer 
