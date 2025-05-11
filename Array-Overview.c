@@ -1,4 +1,5 @@
 // Program to count digits, whitespaces, tabs , newline with the use of arrays
+// Arrays 
 
 #include <stdio.h>
 
