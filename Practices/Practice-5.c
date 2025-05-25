@@ -23,8 +23,8 @@ int main(){
             
         }
         else if (inword == NO ){
-            inword = YES; // When it not a space,...,... also we were not in a word previosly, set the inword to NO
-            ++nw; // An recognise it as a new word
+            inword = YES; // When it not a space,...,... also we were not in a word previosly, it means currently a character in entered and in a word
+            ++nw; // And recognise it as a new word
         }
 
     }

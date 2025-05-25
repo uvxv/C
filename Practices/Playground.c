@@ -3,12 +3,11 @@
 
 int main()
 {
-    int hex;
+ int a = 1025;
+ unsigned pA;
 
- scanf("%x",&hex);
+ pA = &a;
 
- printf("%d", hex);
-
- return 0;
+ printf("%d",(int *)&pA);
 
 }
