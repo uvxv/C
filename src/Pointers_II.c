@@ -11,7 +11,7 @@ int main ()
     pA = &a; // pointer to the first address of the 4bytes
 
     printf("pA pointed to the address %X\n", pA);
-    printf("pA+1 pointed to the address %X\n", pA+1); // Danger, can go beyond teh bound
+    printf("pA+1 pointed to the address %X\n", pA+1); // Danger, can go beyond the bound
     printf("---------------------\n");
 
 

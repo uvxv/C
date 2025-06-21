@@ -10,7 +10,7 @@ int main()
     int*** pC;
 
     a = 1024;
-    pA = &a;
+    pA = &a; // The address a is a interger type pointer (int *), so this expression is valid
     pB = &pA;
     pC = &pB;
     
